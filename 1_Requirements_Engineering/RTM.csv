@@ -1,0 +1,8 @@
+Req ID,Requirement Summary,Priority,Use Case(s),Design Component,Test Case ID(s),Status
+FR-001,Domain-based mentor recommendation and one-click booking,High,"UC-01, UC-02","Matching Service, Booking Engine","TC-001, TC-002",Designed
+FR-002,Mentor availability management with real-time student view,High,"UC-04, UC-01","Availability Manager, Redis cache","TC-003, TC-004",Designed
+FR-003,Automatic meeting-link generation and calendar attach,High,"UC-03, UC-01","Video Conferencing Adapter, Calendar Adapter","TC-005, TC-006",Designed
+FR-004,Structured post-session scorecard,Medium,"UC-05, UC-06, UC-07",Scorecard Service,"TC-007, TC-008",Designed
+FR-005,Reminders and reschedule/cancel within policy window,Medium,"UC-08, UC-09, UC-10","Booking Engine, Notification Service","TC-009, TC-010, TC-011",Designed
+NFR-001,Privacy compliance and soft-deletion within 24 hours,High,All,"Auth & Profile Service, Data Layer","TC-012, TC-013",Designed
+NFR-002,Concurrency-safe booking and 99.5% uptime in peak windows,High,"UC-01 (A1)","Booking Engine (row-level locking), Data Layer","TC-014, TC-015",Designed
